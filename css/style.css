@@ -1,0 +1,308 @@
+body{
+    padding: 48px;
+    background-color: #181818;;
+    height: 929px;
+    width: 100%;
+    background-image:
+    radial-gradient(circle, rgba(255,255,255,0) 44%, rgba(24,24,24,1) 100%),
+    linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(24,24,24,1) 100%),  url('../img/bgimg.jpg');
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: 1920px 1080px;
+}
+
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+nav ul li{
+    display: inline-block;
+    padding-right: 80px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #F9F9F9;
+}
+
+nav ul li:last-child{
+    padding-right: 0px;
+}
+
+nav ul li a img{
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.logo{
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 66px;
+    background: -webkit-linear-gradient( 0deg, #FFA634, #FF267A );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+
+
+.tipofilme{
+    margin-top: 58px;
+    width: 50px;
+    padding: 4px 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    background-color: #111111;
+    border-radius: 0px 8px;
+    color: #FFA634;
+}
+
+.stars{
+    display: flex;
+    align-items: center;
+    margin-top: 31px;
+    gap: 6px;
+
+    height: 19px;
+    filter: drop-shadow(0px 1px 12px #FFA634);
+    
+}
+
+.timing01{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    width: 19px;
+    height: 19px;
+}
+
+.tempo-filme{
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 125.19%;
+    color: #F9F9F9;
+}
+
+.nameFilme{
+    margin-top: 26px;
+    
+}
+
+.nameFilme a{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 64px;
+    color: #F9F9F9;
+}
+
+.descricaoFilme{
+    max-width: 536px;
+    margin-top: 26px;
+    
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: #F9F9F9;
+}
+
+
+
+.botaoAssista2{
+    margin-top: 61px;
+    width: 286px;
+    height: 56px;
+    background-color:#FFA634;
+    border-radius: 4px;
+    border: 0;
+    color: #181818;
+    font-size: 24px;
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    cursor: pointer;
+}
+
+.Subtitle{
+    margin-top: 123px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 44px;
+    color: #F9F9F9;
+}
+
+.localcards{
+    display: flex;
+    justify-content: center;
+    gap: 81px;
+    margin-top: 41px;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    width: 300px;
+    height: 440px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding-left: 30px;
+    padding-bottom: 24px;
+    cursor: pointer;
+}
+
+.card01{
+    background-image: linear-gradient( 180deg, rgba(24, 24, 24, 0) 0%, rgba(24, 24, 24, 0.8) 80.79% ), url(../img/Shang-Chi-and-the-Legend-of-the-Ten-Rings-Releases-New\ 2.png);
+}
+
+.card02{
+    background-image: linear-gradient( 180deg, rgba(24, 24, 24, 0) 0%, rgba(24, 24, 24, 0.8) 80.79% ), url(../img/wisa-dragon.png);
+}
+
+.card03{
+    background-image: linear-gradient( 180deg, rgba(24, 24, 24, 0) 0%, rgba(24, 24, 24, 0.8) 80.79% ), url(../img/loki.png);
+}
+
+.card04{
+    background-image: linear-gradient( 180deg, rgba(24, 24, 24, 0) 0%, rgba(24, 24, 24, 0.8) 80.79% ), url(../img/spiderman.png);
+}
+
+.card05{
+    background-image: linear-gradient( 180deg, rgba(24, 24, 24, 0) 0%, rgba(24, 24, 24, 0.8) 80.79% ), url(../img/thewitcher.png);
+}
+
+.category{
+    width: 79px;
+    padding: 4px 8px;
+    background-color: #111111;
+    border-radius: 0px 8px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    color: #FFA634;
+}
+
+.star-white{
+    margin-top: 17px;
+}
+
+.nome-movie{
+    margin-top: 16px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 33px;
+    color: #F9F9F9;
+}
+
+.border{
+    margin-top: 6px;
+    width: 61px;
+    height: 3px;
+    background-color: #FFA634;
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 55px;
+    padding: 20px 0px;
+ 
+}
+.name-logo{
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 66px;
+    color: #F9F9F9;
+    cursor: pointer;
+}
+
+.redes-sociais{
+    display: flex;
+    gap: 65px;
+    cursor: pointer;
+}
+
+
+
+
+.botaoAssista2:hover{
+    background-color: #ffb049;
+    transform: scale(1.07);
+    box-shadow: 0 0 5px #ffbc65; 
+}
+
+.card01:hover{
+    transform: scale(1.12);
+    box-shadow: 0 0 5px #ffb049; 
+}
+
+.card02:hover{
+    transform: scale(1.12);
+    box-shadow: 0 0 5px #ffb049; 
+}
+
+.card03:hover{
+    transform: scale(1.12);
+    box-shadow: 0 0 5px #ffb049; 
+}
+
+.card04:hover{
+    transform: scale(1.12);
+    box-shadow: 0 0 5px #ffb049; 
+}
+
+.card05:hover{
+    transform: scale(1.12);
+    box-shadow: 0 0 5px #ffb049; 
+}
+
+.bell:hover{
+    transform: scale(1.12);
+}
+
+.user:hover{
+    transform: scale(1.12);
+}
+
+.search01:hover{
+    transform: scale(1.12);
+    
+}
+
+a:link{
+    color: #F9F9F9;
+}

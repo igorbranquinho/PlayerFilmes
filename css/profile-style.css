@@ -1,0 +1,172 @@
+body{
+    padding: 48px;
+    background-color: #09090B;
+    width: 100%;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+}
+
+nav{
+    display: flex;
+}
+
+nav ul{
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    
+}
+
+.logo{
+    font-family: 'Mukta';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 66px;
+    background: -webkit-linear-gradient( 0deg, #FFA634, #FF267A );
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    cursor: pointer;
+}
+
+nav ul li{
+
+
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 36px;
+    line-height: 49px;
+    color: #F9F9F9;
+    
+}
+
+
+
+.textcenter{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    margin-top: 63px;
+}
+
+.text-titulo{
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 64px;
+    line-height: 87px;
+    color: #F9F9F9;
+}
+
+.text-subtitulo{
+    margin-top: 24px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 40px;
+    line-height: 54px;
+    color: #F9F9F9;
+}
+
+.perfis{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 450px;
+    margin-top: 150px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    cursor: pointer;
+}
+
+.perfil01{
+    border-radius: 100%;
+    width: 176px;
+    height: 176px;
+    background: linear-gradient(225deg, #781FD1 0%, #570EAB 100%);
+}
+
+.perfil02{
+    border-radius: 100%;
+    width: 176px;
+    height: 176px;
+    background: linear-gradient(180deg, #64FA9B 0%, #5FE36A 100%);
+}
+
+.perfil03{
+    border-radius: 100%;
+    width: 176px;
+    height: 176px;
+    background: linear-gradient(180deg, #4DF0F3 0%, #4D7BFD 100%);
+}
+
+.name-perfil01{
+    display: flex;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 44px;
+    color: #A8A8A8;
+}
+
+.perfil001{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.perfil002{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.perfil003{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.botaozin{
+    display: flex;
+    justify-content: center;
+}
+
+.botaozin button{
+    margin-top: 138px;
+    padding: 16px 40px;
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #F9F9F9;
+    background-color: #181818;
+}
+
+.perfil01:hover{
+    transform: scale(1.05);
+}
+
+.perfil02:hover{
+    transform: scale(1.05);
+}
+
+.perfil03:hover{
+    transform: scale(1.05);
+}
+
+.botaozin button:hover{
+    transform: scale(1.05);
+    box-shadow: 0 0 5px #0b0b0b; 
+}
